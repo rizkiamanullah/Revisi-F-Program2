@@ -1,10 +1,10 @@
 x = input('Masukkan angka :');
 if x == 5
-    disp("Palabapakau");
+    disp("LIMACUY");
 elseif x == 10
-    disp("Bangsa kau");
+    disp("SEPULUH");
 elseif x == 0
-    disp("Skuy");
+    disp("NOLOL");
 end
 
 
@@ -17,20 +17,25 @@ switch y
     case'/'
         disp(x/2);
     otherwise
-        disp("What");
+        disp("What?");
 end
 
 % for k = 1:5
 %     disp(k);
 % end
 
-disp("While");
+ for k = 1:5:100
+     disp(k);
+ end
+
+disp("Ini while tadi");
 i = x;
 while i>=0
     i=i-1;
     disp(i);
 end
 
+disp("Testing dan");
 disp(x && i);
 disp(x & i);
 disp(and(x,i));
