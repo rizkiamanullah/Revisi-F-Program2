@@ -26,6 +26,8 @@ end
 
  for k = 1:5:100
      disp(k);
+     continue;
+     disp(k+1);
  end
 
 disp("Ini while tadi");
@@ -33,7 +35,16 @@ i = x;
 while i>=0
     i=i-1;
     disp(i);
+    break;
 end
+
+disp("Ini while tadi");
+i = x;
+while i>=0
+    i=i-1;
+    disp(i);
+end
+
 
 disp("Testing dan");
 disp(x && i);
